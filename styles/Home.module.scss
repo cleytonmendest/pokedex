@@ -1,0 +1,21 @@
+.container{
+  width: 100%;
+
+  .mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .pokedex__pokemonsContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
