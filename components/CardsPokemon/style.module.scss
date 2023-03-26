@@ -4,35 +4,80 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 204px;
-    background-color: #ccc;
+    max-width: 240px;
+    background-color: #132226;
     border-radius: 10px;
     padding: 20px;
     cursor: pointer;
+    transition: all ease-in .15s;
+
+    @media screen and (max-width: 500px){
+        max-width: 300px;
+    }
 
     &:hover {
-        background-color: #9e9e9e;
+        background-color: #525b56;
+    }
+    
+
+
+    .generalInfoContainer {
+        padding: 10px;
+        background-color: #132226;
+        border-radius: 10px;
+        margin-top: -65px;
+        padding-top: 60px;
+    }
+
+    .statsInfoContainer,
+    .basicsInfoContainer {
+        width: 100%;
+        margin-bottom: 10px;
+
+        h5 {
+            font-size: 13px;
+            color: #b8ced3;
+        }
     }
 
     .idArea,
-    .basicsInfo{
+    .basicsInfo {
         width: 100%;
-        p{
+
+        p {
             font-size: 12px;
+            color: #b8ced3;
         }
     }
-    .basicsInfo{
+
+    .basicsInfo {
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
 
-    .cardPokemon__image{
+    .statsInfo {
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        p {
+            font-size: 12px;
+            width: 50%;
+            color: #b8ced3;
+        }
+    }
+
+
+    .cardPokemon__image {
+        width: 100%;
+        z-index: 1;
     }
 
     .cardPokemon__pokemonName {
         text-transform: capitalize;
+        text-align: center;
+        color: #ffffff;
     }
 
     .cardPokemon__typesArea {
