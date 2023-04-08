@@ -38,8 +38,6 @@ const Home = (data: Props) => {
     getPokemonsInfo(results)
   }, [])
 
-  console.log(pokemons)
-
   return (
     <div className={styles.container}>
       <Head>
