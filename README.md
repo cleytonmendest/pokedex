@@ -1,6 +1,7 @@
-#My Pokedex
+# My Pokedex
 
 Projeto Pokedex feito utilizando a RESTFULL api da [PokeApi](https://pokeapi.co/)
+- Em desenvolvimento
 
 Feito com NextJs, Typescript e SASS
 
